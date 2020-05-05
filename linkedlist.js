@@ -77,6 +77,7 @@ class LinkedList {
       return this.head;
     }
     let first = this.head;
+    this.tail = this.head;
     let second = first.next;
     while (second) {
       const temp = second.next;
